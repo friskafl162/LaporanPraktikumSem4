@@ -40,10 +40,12 @@
 10. Fitu Ubah/Edit
 <br>
    <img width="1920" height="1128" alt="Screenshot 2026-06-22 190911" src="https://github.com/user-attachments/assets/71053060-5b1e-41f1-8ad3-42c2527703fe" />
+   
 ## PRAKTIKUM 5
 1. Membuat Pagination dan Halaman Pencaharian
 <br>
 <img width="1920" height="1128" alt="Screenshot 2026-06-29 143337" src="https://github.com/user-attachments/assets/22e17345-1903-43e8-8ef6-857eb55a6e88" />
+
 ## PRAKTIKUM 6
 1. Membuat Tabel Kategori
 <br>
