@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <title>Admin Portal Berita</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
             background: #f4f4f4;
+            margin: 0;
+        }
+
+        /* WRAPPER */
+        #wrapper{
+            width: 1100px;
+            margin: 20px auto;
+            background: #fff;
+            min-height: calc(100vh - 40px);
+            box-shadow: 0 3px 15px rgba(0,0,0,.1);
+            border-radius: 10px;
+            overflow: hidden;
         }
 
         /* HEADER */
         header {
-            background: #ffffff;
-            padding: 20px;
+            background: #fff;
+            padding: 20px 30px;
             border-bottom: 1px solid #ddd;
         }
 
         header h1 {
             margin: 0;
-            color: #888;
+            color: #777;
+            font-size: 2rem;
         }
 
         /* NAVBAR */
@@ -38,69 +52,55 @@
         nav ul li a {
             display: block;
             padding: 14px 20px;
-            color: white;
+            color: #fff;
             text-decoration: none;
+            font-size: 14px;
         }
 
         nav ul li a:hover {
             background: #1f5a97;
         }
 
-        /* CONTAINER */
+        /* CONTENT */
         .container {
-            width: 90%;
-            margin: 20px auto;
-            background: white;
-            padding: 20px;
+            max-width: 100% !important;
+            padding: 30px;
+            background: #fff;
+            margin: 0 !important;
         }
 
         /* TABLE */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
         table th {
-            background: #5b8cc5;
+            background: #5b8cc5 !important;
             color: white;
-            padding: 10px;
+            text-align: center;
         }
 
         table td {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
+            vertical-align: middle;
         }
 
         /* BUTTON */
         .btn {
-            padding: 6px 10px;
-            background: #999;
-            color: white;
-            text-decoration: none;
-            border-radius: 3px;
+            border-radius: 5px;
         }
 
-        .btn-danger {
-            background: #e74c3c;
-        }
-
-        /* Footer */
+        /* FOOTER */
         footer {
-            clear: both; /* biar gak ketiban float */
-            background-color: #1c1c1c;
-            color: #ffffff;
+            background: #1c1c1c;
+            color: white;
             padding: 20px;
-            font-size: 14px;
         }
 
         footer p {
             margin: 0;
         }
     </style>
-
 </head>
 
 <body>
+
+<div id="wrapper">
 
 <header>
     <h1>Admin Portal Berita</h1>
@@ -115,4 +115,3 @@
 </nav>
 
 <div class="container">
-    

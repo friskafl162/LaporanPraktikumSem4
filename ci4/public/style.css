@@ -18,9 +18,9 @@ body {
 
 /* Container */
 #container {
-  width: 980px;
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
-  box-shadow: 0 1em 1em #cccccc;
 }
 
 /* Header */
@@ -171,3 +171,4 @@ body {
     padding: 10px;
     margin-bottom: 20px;
 }
+
